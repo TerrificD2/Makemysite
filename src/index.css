@@ -1,23 +1,14 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.9%;
-  }
-
   * {
     @apply border-border selection:bg-white/10 selection:text-white;
   }
 
   body {
-    @apply bg-primary text-primary-foreground antialiased;
+    @apply bg-black text-white antialiased;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
 
