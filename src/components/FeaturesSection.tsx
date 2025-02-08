@@ -2,33 +2,33 @@ import { motion } from 'framer-motion';
 
 const features = [
   {
-    title: "Automated Geolocation",
-    description: "Our AI analyzes visual elements to determine precise locations from images and videos.",
-    icon: "🌍"
+    title: "Custom Web Development",
+    description: "Tailored websites built from scratch to match your unique business needs.",
+    icon: "💻"
   },
   {
-    title: "Real-time Processing",
-    description: "Process thousands of images simultaneously with our distributed cloud infrastructure.",
+    title: "Real-time Updates",
+    description: "Modern web applications with live updates and seamless interactions.",
     icon: "⚡"
   },
   {
-    title: "Advanced Recognition",
-    description: "Identify landmarks, architecture, and environmental features with high accuracy.",
-    icon: "🔍"
+    title: "Responsive Design",
+    description: "Websites that look and work perfectly on all devices and screen sizes.",
+    icon: "📱"
   },
   {
-    title: "Custom Integration",
-    description: "Easily integrate with your existing workflows through our robust API.",
+    title: "API Integration",
+    description: "Seamless integration with third-party services and custom APIs.",
     icon: "🔄"
   },
   {
-    title: "Secure & Private",
-    description: "Enterprise-grade security with end-to-end encryption for all your data.",
+    title: "Security First",
+    description: "Enterprise-grade security with end-to-end encryption for your data.",
     icon: "🔒"
   },
   {
-    title: "Detailed Analytics",
-    description: "Get comprehensive insights and confidence scores for each prediction.",
+    title: "Analytics & Insights",
+    description: "Comprehensive analytics to track and improve your website's performance.",
     icon: "📊"
   }
 ];
@@ -44,11 +44,11 @@ const FeaturesSection = () => {
           className="text-center mb-10"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Powerful Features for
-            <span className="text-white/90 ml-2">Location Intelligence</span>
+            Comprehensive Web Development
+            <span className="text-white/90 ml-2">Solutions</span>
           </h2>
           <p className="text-base md:text-lg text-white/60 max-w-2xl mx-auto">
-            Transform your visual data into actionable geographic insights with our comprehensive suite of AI-powered tools
+            Transform your digital presence with our full suite of modern web development services
           </p>
         </motion.div>
 

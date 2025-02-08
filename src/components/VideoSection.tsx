@@ -32,15 +32,15 @@ const VideoSection = ({
     [-100, 0, 100]
   ); // Forward movement
 
-  const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
-  const scale = useTransform(scrollYProgress, [0, 1], [0.85, 1]);
+  const opacity = useTransform(scrollYProgress, [0, 0.3], [0, 1]);
+  const scale = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
 
   return (
     <section 
-      ref={sectionRef} 
-      className={`w-full min-h-[80vh] flex items-center justify-center px-4 py-8 overflow-hidden -mt-24 ${className}`}
+      ref={sectionRef}
+      className="relative -mt-32 mb-20 py-8 px-4"
     >
-      <div className="w-full max-w-6xl perspective-[2500px]">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           style={{
             y,
@@ -52,7 +52,7 @@ const VideoSection = ({
             transformOrigin: "50% 100%",
             willChange: "transform",
           }}
-          className="w-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
+          className="relative aspect-video rounded-2xl overflow-hidden bg-white/5"
         >
           <video
             src={videoUrl}

@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply border-border selection:bg-white/10 selection:text-white;
+    @apply border-white/10 selection:bg-white/10 selection:text-white;
   }
 
   body {
@@ -41,4 +41,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }
